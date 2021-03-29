@@ -23,7 +23,18 @@ body {
 	background: rgba(255, 255, 255, .7);
 
 }
-
+@media screen and (max-width:1024px){
+	.clock{
+		width: 60vw;
+		height: 60vw;
+	}
+}
+@media screen and (max-width:420px){
+	.clock{
+		width: 80vw;
+		height: 80vw;
+	}
+}
 .num {	
 	font-size: 2em;
 	--rotation:0;
